@@ -353,7 +353,7 @@ void setup() {
   
   for (int index = 0; index < NB_MAX7219; index++) { // NB_MAX7219 similar to lc.getDeviceCount()
     lc.shutdown(index, false);
-    lc.setIntensity(index, 4); // (0~15)
+    lc.setIntensity(index, 4); // (0 - 15)
     lc.clearDisplay(index);
   }
 }
