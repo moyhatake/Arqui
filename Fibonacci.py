@@ -8,3 +8,4 @@ if nums <= 0: print("Must be a positive integer")
 else:
     print("Fibonacci series: ")
     for i in range(nums): print(fibonacci(i), end = ' ')
+    print("")

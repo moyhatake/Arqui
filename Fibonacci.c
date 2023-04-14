@@ -14,6 +14,6 @@ int main() {
             t2 = nextVal;
         }
    }
-   
-    return 0;
+   printf("\n");
+   return 0;
 }
